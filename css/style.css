@@ -1,0 +1,178 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Global Styles */
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    background-color: #7fffd4;
+    font-family: "Indie Flower", cursive;
+}
+
+/* Header */
+.header {
+    background-color: #034180;
+    height: 70px;
+}
+
+.logo {
+    float: left;
+    padding: 12px;
+}
+
+.logo img{
+    width: 90px;
+    height: 80px;
+}
+
+
+.menu{
+    float: right;
+    margin: 24px;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.menu a {
+    color: #0b0d22;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 20px;
+}
+
+/* Banner */
+.banner{
+    background-image: url(../img/copa\ barner.jpg);
+    background-size: cover;
+    height: 550px;
+}
+
+.banner h1 {
+    text-align: right;
+    font-size: 150px;
+    padding: 150px 50px;
+    color: #041daa;
+    text-shadow: 2px 2px 3px #000000;
+}
+
+/* Tienda Virtual */
+.tienda {
+    margin: auto;
+    width: auto;
+}
+
+.tienda .Vtienda {
+    padding: 50px;
+}
+
+.botonTienda {
+    background-image: url(../img/tienda.jpg);
+    background-size: cover;
+    border-radius: 120px;
+    height: 190px;
+    line-height: 55px;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+}
+
+.botonTienda:hover {
+    opacity: 0.9;
+}
+
+.botonTienda a {
+    color: #6b1010;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/* Historia */
+.historia {
+    background-color: #0a2980;
+    color: antiquewhite;
+    padding: 20px 100px 70px 100px;
+    text-align: justify;
+}
+
+.historia h2 {
+    font-size: 50px;
+    padding: 10px;
+    text-align: center;
+}
+
+.historia p {
+    font-size: 30px;
+}
+
+.historia a {
+    color: #000000;
+}
+
+/* Awards */
+.titulos {
+    padding: 10px;
+    text-align: center;
+}
+
+.titulos table {
+padding: 30px 100px;
+}
+
+.titulos h2 {
+    font-size: 45px;
+}
+
+.titulos td {
+    font-size: 25px;
+    padding: 0px 20px;
+    text-align: left;
+}
+
+.titulos span {
+    background-color: #88dbf0;
+    border: 2px solid #805d5d;
+    padding: 2px 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #000000;
+    color: #7fffd4;
+    font-size: 25px;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
